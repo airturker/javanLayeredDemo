@@ -26,7 +26,7 @@ public class ProductManager implements ProductService{
 		}
 		
 		this.productDao.add(product);
-		this.loggerService.logToSystem("ürün eklendi. " + product.getName());
+		this.loggerService.logToSystem("ürün eklendi: " + product.getName());
 		
 	}
 
